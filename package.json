@@ -11,7 +11,8 @@
   "author": "Hector Palacios <paquito1981@outlook.com>",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^6.4.1"
   },
   "repository": {
     "type": "git",
