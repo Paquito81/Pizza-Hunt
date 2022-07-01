@@ -29,12 +29,13 @@ const PizzaSchema = new Schema(
 {
     toJSON: {
         virtuals: true,
+        getters: true
     },
     id: false
 }
 );
 //get total count of comments and replies on retrieval
-Pizza.Schema.virtual('commentCount').get(function() {
+PizzaSchema.virtual('commentCount').get(function() {
     return this.comments.length;
 });
 
