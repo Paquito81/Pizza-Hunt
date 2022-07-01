@@ -2,7 +2,7 @@ const { Schema, model } = require('mongoose');
 
 const CommentSchema = new Schema({
     writtenBy: {
-        tyoe: String
+        type: String
     },
 
     commentBody: {
